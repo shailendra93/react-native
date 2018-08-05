@@ -5,6 +5,10 @@ import {Text,View} from 'react-native';
 
 // Make a component 
 class AlbumList extends Component{
+    componentWillMount(){
+        console.log("component will mount in debug list");
+        
+    }
 render(){    
 
     return (
